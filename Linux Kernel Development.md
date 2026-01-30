@@ -201,9 +201,9 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Author");
 MODULE_DESCRIPTION("Simple hello kernel module");
 MODULE_VERSION("0.1");
-
+```
 Makefile
-
+```c
 obj-m += hello.o
 
 all:
@@ -211,14 +211,14 @@ all:
 
 clean:
 	$(MAKE) -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
-
+```
 Build and Test
-
+```c
 make
 sudo insmod hello.ko name="Kernel"
 dmesg | tail
 sudo rmmod hello
-
+```
 
 ## 11. Why This Knowledge Matters
 
