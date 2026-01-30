@@ -224,25 +224,18 @@ sudo rmmod hello
 
 This material demonstrates:
 
-Correct kernel vs user-space understanding
-
-Proper boot flow mental model
-
-Safe kernel coding practices
-
-Ability to write, load, debug, and unload kernel code
-
-These are core expectations for entry-level kernel engineers.
+- Correct kernel vs user-space understanding
+- Proper boot flow mental model
+- Safe kernel coding practices
+- Ability to write, load, debug, and unload kernel code
+- These are core expectations for entry-level kernel engineers.
 
 ## 12. Recommended Entry-Level Books
 
-Linux Kernel Development — Robert Love
-
-Linux Device Drivers — Corbet, Rubini, Kroah-Hartman
-
-Understanding the Linux Kernel — Bovet & Cesati
-
-Linux Kernel Programming — Kaiwan N Billimoria
+- Linux Kernel Development — Robert Love
+- Linux Device Drivers — Corbet, Rubini, Kroah-Hartman
+- Understanding the Linux Kernel — Bovet & Cesati
+- Linux Kernel Programming — Kaiwan N Billimoria
 
 Always combine reading with real kernel code and small projects.
 
@@ -250,12 +243,8 @@ Always combine reading with real kernel code and small projects.
 
 Kernel development is learned by:
 
-Reading
-
-Building
-
-Breaking
-
-Fixing
-
-Repeating
+- Reading
+- Building
+- Breaking
+- Fixing
+- Repeating
