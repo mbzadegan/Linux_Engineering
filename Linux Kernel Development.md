@@ -23,7 +23,7 @@ The kernel itself does **not** include shells, services, or utilities.
 
 ---
 
-## 2. What Is `init`?
+## 2. What is `init`?
 
 `init` is the **first user-space process** started by the kernel.
 
