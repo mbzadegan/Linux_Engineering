@@ -20,7 +20,7 @@ mount ${DISK}2 /mnt
 mkdir /mnt/boot
 mount ${DISK}1 /mnt/boot
 
-echo "[*] Installing base system with networking and SSH"
+echo "[*] Installing base system with networking and SSH."
 pacstrap /mnt base linux linux-firmware openssh systemd-networkd systemd-resolved vim sudo
 
 echo "[*] Generating fstab"
