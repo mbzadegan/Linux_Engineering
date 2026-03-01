@@ -67,7 +67,7 @@ Those belong to **user space**, not the kernel.
 
 ---
 
-## 4. What Is initramfs?
+## 4. What is initramfs?
 
 `initramfs` is a temporary root filesystem loaded into RAM during boot.
 
