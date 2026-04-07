@@ -11,7 +11,7 @@ mkdir -pv $LFS/{sources,tools}
 chmod -v a+wt $LFS/sources
 ln -sv $LFS/tools /
 
-# Check for necessary user (should be run as root).
+# Check for necessary user (should be run as #root).
 if ! id lfs >/dev/null 2>&1; then
   echo "Creating lfs user..."
   groupadd lfs
