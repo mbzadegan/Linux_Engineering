@@ -79,7 +79,7 @@ sudo -u "$SUDO_USER" yay -S --noconfirm \
   wxmaxima
 
 # Optional: Install CUDA for GPU computing (Uncomment if needed)
-# echo "==> Installing GPU libraries..."
+# echo "==> Installing GPU libraries.."
 # pacman -S --noconfirm cuda cudnn python-pytorch-opt
 
 echo "==> All tools installed successfully."
